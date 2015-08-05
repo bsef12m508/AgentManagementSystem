@@ -1,0 +1,340 @@
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll.config
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.pdb
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Owin.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\WebGrease.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.pdb
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.csprojResolveAssemblyReference.cache
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.dll
+c:\users\seemu bajwa\documents\visual studio 2013\Projects\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.pdb
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll.config
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.pdb
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Owin.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\WebGrease.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.dll
+C:\Users\Umar Chaudhry\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.pdb
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll.config
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.pdb
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Owin.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\WebGrease.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.dll
+C:\Users\Seemu Bajwa\Documents\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.pdb
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll.config
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.pdb
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Owin.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\WebGrease.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.dll
+C:\Users\Seemu Bajwa\Documents\GitHub\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.pdb
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll.config
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\AgentManagementSystem.pdb
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Owin.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\WebGrease.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Helpers.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Mvc.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Optimization.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.Razor.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Antlr3.Runtime.pdb
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Newtonsoft.Json.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.pdb
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Net.Http.Extensions.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Net.Http.Primitives.dll
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Net.Http.Extensions.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\bin\System.Net.Http.Primitives.xml
+E:\New folder\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.csproj.App.config
+E:\New folder\AgentManagementSystem\AgentManagementSystem\obj\Debug\AgentManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\AgentManagementSystem.dll.config
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\AgentManagementSystem.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\AgentManagementSystem.pdb
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\EntityFramework.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Owin.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Net.Http.Extensions.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Net.Http.Primitives.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Razor.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\WebGrease.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Net.Http.Extensions.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Net.Http.Primitives.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.Razor.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\EntityFramework.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\obj\Debug\AgentManagementSystem.csproj.App.config
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\obj\Debug\AgentManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\obj\Debug\AgentManagementSystem.dll
+C:\Users\Seemu Bajwa\Downloads\AgentManagementSystem-Wasim\AgentManagementSystem-Wasim\AgentManagementSystem\obj\Debug\AgentManagementSystem.pdb

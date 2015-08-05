@@ -1,0 +1,85 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Quotation>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="page-header">View Quotations</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-hovered" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                Consignee
+            </th>
+            <th>
+                Shipper
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PayedAmount)
+            </th>
+            <th>
+                Loading Port
+            </th>
+            <th>
+                Discharge
+            </th>
+            @*<th>
+                Total
+            </th>*@
+            <th>
+                Action
+            </th>
+            <th>
+                Job
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Consignee.PersonName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Shipper.PersonName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PayedAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Port.PortName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Port1.PortName)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.ServiceForQuotations.Sum(i => (i.UnitPrice * i.Quantity) ))
+                </td>*@
+                <td>
+                    <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Quotations/Edit/@item.Id'" />
+
+                    <input type="submit" class="btn-success" value="Details" onclick="self.location='/Quotations/Details/@item.Id'" />
+
+                    <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Quotations/Delete/@item.Id'" />
+
+                </td>
+                <td>
+                    <input type="submit" class="btn-danger" value="Job" onclick="self.location='/Quotations/MakeJob/@item.Id'" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

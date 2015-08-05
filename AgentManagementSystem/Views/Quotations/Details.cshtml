@@ -1,0 +1,158 @@
+﻿@model AgentManagementSystem.Models.Quotation
+@using AgentManagementSystem.Models;
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Quotation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Weight)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Weight)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FlightNo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FlightNo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SailingDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SailingDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArrivalDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArrivalDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PayedAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PayedAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Comodity.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Comodity.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Packing.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Packing.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Port.PortName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Port.PortName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Port1.PortName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Port1.PortName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Shipper.PersonName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Shipper.PersonName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Consignee.PersonName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Consignee.PersonName)
+        </dd>
+
+    </dl>
+</div>
+
+
+<table class="table table-bordered table-hovered" id="mytable">
+    <thead>
+        <tr>
+            <th>Service Title</th>
+            <th>Quantity</th>
+            <th>UnitPrice</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var a in ViewBag.srv)
+        {
+            int b = a.Quantity * a.UnitPrice;
+            int d = a.ServiceId;
+            DbEntities1 db = new DbEntities1();
+            var c = db.Services.First(o => o.Id == d);
+
+            <tr>
+                <td>@c.Title</td>
+                <td>@a.Quantity</td>
+                <td>@a.UnitPrice</td>
+                <td>@b</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

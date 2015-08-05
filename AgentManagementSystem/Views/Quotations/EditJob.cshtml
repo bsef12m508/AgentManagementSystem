@@ -1,0 +1,443 @@
+﻿@model AgentManagementSystem.Models.Quotation
+@{
+    ViewBag.Title = "Edit";
+}
+@using AgentManagementSystem.Models;
+
+<h2 style="margin-top:2%" class="page-header">Edit Job</h2>
+
+<div class="container">
+
+    <form action="/Jobs/Index">
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.Status)
+        @Html.HiddenFor(model => model.PayedAmount)
+        <div class="col-md-4">
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Date, htmlAttributes: new { @style = "margin-left:0%;", @class = "control-label" })
+                    </div>
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.Date, new { htmlAttributes = new { @style = "width:80%; ", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        <label class="label-control" style="margin-left:0%;">Shipper</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownList("ShipperId", null, htmlAttributes: new { @style = "width:80%", @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ShipperId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        <label class="label-control" style="margin-left:0%;">Comodity</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownList("ComodityId", null, htmlAttributes: new { @style = "width:80%", @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ComodityId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        <label class="label-control" style="margin-left:0%;">Sailing Date</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.SailingDate, new { htmlAttributes = new { @style = "width:80%", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SailingDate, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        <label class="label-control" style="margin-left:0%;">Quantity</label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="number" min="0" value="@Model.Quantity" class="form-control" max="9999" style="width:80%;" name="Quantity" id="Quantity" required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        <label class="label-control" style="margin-left:0%;">Packing</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownList("PackingId", null, htmlAttributes: new { @style = "width:80%", @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.PackingId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.Weight, htmlAttributes: new { @style = "margin-left:0%;", @class = "control-label" })
+                    </div>
+                    <div class="col-md-8">
+                        <input type="number" min="0" max="9999" value="@Model.Weight" class="form-control" style="width:80%;" name="Weight" id="Weight" required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.ArrivalDate, htmlAttributes: new { @style = "margin-left:0%;", @class = "control-label" })
+                    </div>
+                    <div class="col-md-8">
+                        @Html.EditorFor(model => model.ArrivalDate, new { htmlAttributes = new { @style = "width:80%", @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.ArrivalDate, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.LoadingPort, "LoadingPort", htmlAttributes: new { @style = "margin-left:0%;", @class = "control-label" })
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownList("LoadingPort", null, htmlAttributes: new { @style = "width:100%; margin-right:0%;", @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.LoadingPort, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.DischargePort, "DischargePort", htmlAttributes: new { @style = "margin-left:0%;", @class = "control-label" })
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownList("DischargePort", null, htmlAttributes: new { @style = "width:80%", @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.DischargePort, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        @Html.LabelFor(model => model.FlightNo, htmlAttributes: new { @style = "margin-left:0%;", @class = "control-label" })
+                    </div>
+                    <div class="col-md-8">
+                        <input type="text" style="width:80%;" value="@Model.FlightNo" name="FlightNo" class="form-control" id="FlightNo" required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        <label class="control-label" style="margin-left:0%;">Consignee</label>
+                    </div>
+                    <div class="col-md-8">
+                        @Html.DropDownList("ConsigneeId", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.ConsigneeId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="container">
+                    <input type="submit" style="margin-right:3%;" onclick="return sendtoactionmethodforedit();" value="Edit" class="btn btn-success" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<h4 class="page-header" style="margin-top:2%;">Add Service</h4>
+
+<form onsubmit="addservicetotable();">
+    <div class="container">
+        <div class="col-md-3">
+            <div class="form-group">
+                <div class="container">
+                    <div class="col-md-4">
+                        <label class="control-label" style="margin-left:0%;">Service </label>
+                    </div>
+                    <div class="col-md-8">
+                        <select style="width:100%;" class="form-control" id="title">
+                            @foreach (var a in ViewBag.ServiceId)
+                            {
+                                <option value="@a.Id">@a.Title</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3" style="margin-left:0%;">
+            <div class=" container">
+                <div class=" form-group">
+                    <div class="col-md-5">
+                        <label class="control-label" style="margin-left:0%;">Quantity </label>
+                    </div>
+                    <div class="col-md-7">
+                        <input type="number" class="form-control" min="0" max="999" style="width:100%;" id="quantity" required />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="container">
+                <div class="form-group">
+                    <div class="col-md-4">
+                        <label class="control-label" style="margin-left:0%;">Unit Price </label>
+                    </div>
+                    <div class="col-md-8">
+                        <input type="number" style="width:100%;" min="0" max="999" class="form-control" id="price" required />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div>
+                <input type="submit" value="Add" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<h4 class="page-header" style="margin-top:2%">Added Services</h4>
+<table class="table table-bordered table-hovered" id="mytable">
+    <thead>
+        <tr>
+            <th>Service</th>
+            <th>Quantity</th>
+            <th>Unit Price</th>
+            <th>Amount</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody id="tablerows">
+        @foreach (var a in ViewBag.ServicesForQuotation)
+        {
+            int b = a.Quantity * a.UnitPrice;
+            int d = a.ServiceId;
+            DbEntities1 db = new DbEntities1();
+            var c = db.Services.First(o => o.Id == d);
+
+            <tr>
+                <td>@c.Title</td>
+                <td>@a.Quantity</td>
+                <td>@a.UnitPrice</td>
+                <td>@b</td>
+            </tr>
+        }
+    </tbody>
+</table>
+        addservicestoarrayatstart();
+
+@Html.ActionLink("Back to List", "Index")
+
+@section Scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script>
+    function addarraytotable()
+    {
+        $('#tablerows').empty();
+        if(aar.length>0)
+        {
+            for(var i=0;i<=aar.length;i++)
+            {
+                var title;
+                @foreach (var a in ViewBag.ServiceId)
+{
+            <text>
+                if(aar[i].id==@a.Id){ title='@a.Title';}
+            </text>
+}
+            $('#tablerows').append("<tr><td>" + title+ "</td><td>" + aar[i].quantity + "</td><td>" + aar[i].price + "</td><td>" + (aar[i].quantity*aar[i].price) + "</td><td>" + "<button class='btn btn-danger' onclick=" + " 'deletefromarray(" + aar[i].serviceid + ");'>Delete</button>" + "</td></tr>");
+        }
+    }
+    }
+</script>
+
+<script>
+    var srv=function(d,a,b,c)
+    {
+        this.serviceid=d;
+        this.id=a;
+        this.price = b;
+        this.quantity = c;
+    }
+
+    var quotation= function()
+    {
+        this.id;
+        this.date;
+        this.shipperid;
+        this.comodityid;
+        this.quantity;
+        this.packingid;
+        this.weight;
+        this.loadingport;
+        this.dischargeport;
+        this.flightno;
+        this.sailingdate;
+        this.arrivaldate;
+        this.consigneeid;
+        this.status;
+        this.payedamount;
+    }
+
+    function addservicetotable()
+    {
+        var b = document.getElementById("quantity").value;
+        var c = document.getElementById("price").value;
+        var a = document.getElementById("title").value;
+        var d = c * b;
+
+        var ccc=document.getElementById('title').options[document.getElementById('title').selectedIndex].innerHTML;
+
+        var obj = new srv(counter++, a, c, b);
+        aar.push(obj);
+        $('#tablerows').append("<tr><td>" + ccc + "</td><td>" + b + "</td><td>" + c + "</td><td>" + d + "</td><td>" + "<button class='btn btn-danger' onclick=" + "'deletefromarray(" + (counter-1) + ");'>Delete</button>" + "</td></tr>");
+
+        document.getElementById("quantity").value = "";
+        document.getElementById("price").value = "";
+        return false;
+    }
+
+    function sendtoactionmethodforedit()
+    {
+        if(aar.length<=0)
+        {
+            alert("Add atleast one service");
+            return false;
+        }
+        var a=document.getElementById("Quantity");
+        var b=document.getElementById("Weight");
+        if(a.value<=0|| a.value==null)
+        {
+            a.value=null;
+            alert("Invalid Quantity.");
+            return false;
+
+        }
+        if(b.value<=0|| b.value==null)
+        {
+            b.value=null;
+            alert("Invalid Weight.");
+            return false;
+        }
+
+        if(aar.length<=0)
+        {
+            alert("Add atleast one service");
+            return false;
+        }
+        var obj = new quotation();
+        obj.id = document.getElementById("Id").value;
+        obj.date = document.getElementById("Date").value;
+        obj.shipperid = document.getElementById("ShipperId").value;
+        obj.comodityid = document.getElementById("ComodityId").value;
+        obj.quantity = document.getElementById("Quantity").value;
+        obj.packingid = document.getElementById("PackingId").value;
+        obj.weight = document.getElementById("Weight").value;
+        obj.loadingport = document.getElementById("LoadingPort").value;
+        obj.dischargeport = document.getElementById("DischargePort").value;
+        obj.flightno = document.getElementById("FlightNo").value;
+        obj.arrivaldate = document.getElementById("ArrivalDate").value;
+        obj.sailingdate = document.getElementById("SailingDate").value;
+        obj.consigneeid = document.getElementById("ConsigneeId").value;
+        obj.status = document.getElementById("Status").value;
+        obj.payedamount = document.getElementById("PayedAmount").value;
+
+        $.ajax({
+            url: '/Quotations/EditQuotation',
+            dataType: "json",
+            type: 'POST',
+            data: JSON.stringify({ ar: aar, ob: obj }),
+            contentType: 'application/json',
+            success: function (data) {
+                if(data=="success")
+                {
+                return true;
+                }
+            },
+            error: function (xhr) {
+                return false;
+            }
+        });
+    }
+</script>
+
+<script>
+    var aar = new Array();
+    var counter = 0;
+    function addservicestoarrayatstart(arr)
+    {
+        @foreach (var a in ViewBag.ServicesForQuotation)
+        {
+            <text>
+        var b = new srv();
+        b.serviceid=counter++;
+        b.id = @a.ServiceId;
+        b.quantity = @a.Quantity;
+        b.price = @a.UnitPrice;
+        aar.push(b);
+        </text>
+        }
+    }
+
+    addservicestoarrayatstart();
+    addarraytotable();
+</script>
+
+<script>
+    function deletefromarray(id)
+    {
+        var tmp= new Array();
+
+        for(var i=0;i<aar.length;i++)
+        {
+            if(aar[i].serviceid==id)
+            {
+                delete aar[i];
+            }
+            else{
+                tmp.push(aar[i]);
+            }
+        }
+        aar=null;
+        aar=tmp;
+        tmp=null;
+        addarraytotable();
+    }
+</script>
+
+

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Quotation>
+@using AgentManagementSystem.Models;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="page-header">View Jobs</h2>
+
+<table class="table table-bordered table-hover" id="mytable">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Shipper.PersonName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Consignee.PersonName)
+                </th>
+                <th>
+                    Total
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PayedAmount)
+                </th>
+                <th>
+                    Make Payment
+                </th>
+                <th>
+                    Action
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Shipper.PersonName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Consignee.PersonName)
+                    </td>
+                    <td>
+                        @{
+                       DbEntities1 db = new DbEntities1();
+                       var a = db.ServiceForQuotations.Where(y => y.QuotationId == item.Id).Sum(y => y.Quantity * y.UnitPrice);
+                        }
+                        @a
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PayedAmount)
+                    </td>
+                    <td>
+                        <input type="submit" class="btn-warning" value="Payment" onclick="self.location= '/Quotations/MakeJob/@item.Id'" />
+                    </td>
+                    <td>
+                        <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Quotations/EditJob/@item.Id'" />
+                        <input type="submit" class="btn-success" value="Details" onclick="self.location='/Quotations/Details/@item.Id'" />
+                        <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Jobs/DiscardJob/@item.Id'" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>

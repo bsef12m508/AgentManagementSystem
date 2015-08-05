@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Comodity">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Quotations" Relationship="Self.FK_Quotation_To_Comodity" FromRole="Comodity" ToRole="Quotation" />
+  </EntityType>
+  <EntityType Name="Consignee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Addresss" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNumber2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="POBox" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Quotations" Relationship="Self.FK_Quotation_To_Consignee" FromRole="Consignee" ToRole="Quotation" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Rank" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Salary" Type="Double" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="IqmaNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SalaryType" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Salaries" Relationship="Self.FK_Salary_To_Employee" FromRole="Employee" ToRole="Salary" />
+  </EntityType>
+  <EntityType Name="Expense">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Packing">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Quotations" Relationship="Self.FK_Quotation_To_Packing" FromRole="Packing" ToRole="Quotation" />
+  </EntityType>
+  <EntityType Name="Port">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PortName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Country" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Quotations" Relationship="Self.FK_Quotation_To_Port" FromRole="Port" ToRole="Quotation" />
+    <NavigationProperty Name="Quotations1" Relationship="Self.FK_Quotation_To_Port1" FromRole="Port" ToRole="Quotation" />
+  </EntityType>
+  <EntityType Name="Quotation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="ShipperId" Type="Int32" />
+    <Property Name="ConsigneeId" Type="Int32" />
+    <Property Name="ComodityId" Type="Int32" />
+    <Property Name="PackingId" Type="Int32" />
+    <Property Name="Weight" Type="Double" />
+    <Property Name="LoadingPort" Type="Int32" />
+    <Property Name="DischargePort" Type="Int32" />
+    <Property Name="FlightNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="SailingDate" Type="DateTime" Precision="0" />
+    <Property Name="ArrivalDate" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="PayedAmount" Type="Int32" />
+    <NavigationProperty Name="Comodity" Relationship="Self.FK_Quotation_To_Comodity" FromRole="Quotation" ToRole="Comodity" />
+    <NavigationProperty Name="Consignee" Relationship="Self.FK_Quotation_To_Consignee" FromRole="Quotation" ToRole="Consignee" />
+    <NavigationProperty Name="Packing" Relationship="Self.FK_Quotation_To_Packing" FromRole="Quotation" ToRole="Packing" />
+    <NavigationProperty Name="Port" Relationship="Self.FK_Quotation_To_Port" FromRole="Quotation" ToRole="Port" />
+    <NavigationProperty Name="Port1" Relationship="Self.FK_Quotation_To_Port1" FromRole="Quotation" ToRole="Port" />
+    <NavigationProperty Name="Shipper" Relationship="Self.FK_Quotation_To_Shipper" FromRole="Quotation" ToRole="Shipper" />
+    <NavigationProperty Name="ServiceForQuotations" Relationship="Self.FK_ServiceForQuotation_To_Quotation" FromRole="Quotation" ToRole="ServiceForQuotation" />
+    <Property Name="Quantity" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Salary">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmployeeId" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="PaidAmount" Type="Double" />
+    <NavigationProperty Name="Employee" Relationship="Self.FK_Salary_To_Employee" FromRole="Salary" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Service">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ServiceForQuotations" Relationship="Self.FK_ServiceForQuotation_To_Service" FromRole="Service" ToRole="ServiceForQuotation" />
+  </EntityType>
+  <EntityType Name="ServiceForQuotation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ServiceId" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="UnitPrice" Type="Int32" />
+    <Property Name="QuotationId" Type="Int32" />
+    <NavigationProperty Name="Quotation" Relationship="Self.FK_ServiceForQuotation_To_Quotation" FromRole="ServiceForQuotation" ToRole="Quotation" />
+    <NavigationProperty Name="Service" Relationship="Self.FK_ServiceForQuotation_To_Service" FromRole="ServiceForQuotation" ToRole="Service" />
+  </EntityType>
+  <EntityType Name="Shipper">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Addresss" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ContactNumber2" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="POBox" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Quotations" Relationship="Self.FK_Quotation_To_Shipper" FromRole="Shipper" ToRole="Quotation" />
+  </EntityType>
+  <Association Name="FK_Quotation_To_Comodity">
+    <End Role="Comodity" Type="Self.Comodity" Multiplicity="0..1" />
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Comodity">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Quotation">
+        <PropertyRef Name="ComodityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Quotation_To_Consignee">
+    <End Role="Consignee" Type="Self.Consignee" Multiplicity="0..1" />
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Consignee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Quotation">
+        <PropertyRef Name="ConsigneeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Salary_To_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="0..1" />
+    <End Role="Salary" Type="Self.Salary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Salary">
+        <PropertyRef Name="EmployeeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Quotation_To_Packing">
+    <End Role="Packing" Type="Self.Packing" Multiplicity="0..1" />
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Packing">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Quotation">
+        <PropertyRef Name="PackingId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Quotation_To_Port">
+    <End Role="Port" Type="Self.Port" Multiplicity="0..1" />
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Port">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Quotation">
+        <PropertyRef Name="LoadingPort" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Quotation_To_Port1">
+    <End Role="Port" Type="Self.Port" Multiplicity="0..1" />
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Port">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Quotation">
+        <PropertyRef Name="DischargePort" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Quotation_To_Shipper">
+    <End Role="Shipper" Type="Self.Shipper" Multiplicity="0..1" />
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shipper">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Quotation">
+        <PropertyRef Name="ShipperId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServiceForQuotation_To_Quotation">
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ServiceForQuotation" Type="Self.ServiceForQuotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Quotation">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ServiceForQuotation">
+        <PropertyRef Name="QuotationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ServiceForQuotation_To_Service">
+    <End Role="Service" Type="Self.Service" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ServiceForQuotation" Type="Self.ServiceForQuotation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Service">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ServiceForQuotation">
+        <PropertyRef Name="ServiceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Comodities" EntityType="Self.Comodity" />
+    <EntitySet Name="Consignees" EntityType="Self.Consignee" />
+    <EntitySet Name="Employees" EntityType="Self.Employee" />
+    <EntitySet Name="Expenses" EntityType="Self.Expense" />
+    <EntitySet Name="Packings" EntityType="Self.Packing" />
+    <EntitySet Name="Ports" EntityType="Self.Port" />
+    <EntitySet Name="Quotations" EntityType="Self.Quotation" />
+    <EntitySet Name="Salaries" EntityType="Self.Salary" />
+    <EntitySet Name="Services" EntityType="Self.Service" />
+    <EntitySet Name="ServiceForQuotations" EntityType="Self.ServiceForQuotation" />
+    <EntitySet Name="Shippers" EntityType="Self.Shipper" />
+    <AssociationSet Name="FK_Quotation_To_Comodity" Association="Self.FK_Quotation_To_Comodity">
+      <End Role="Comodity" EntitySet="Comodities" />
+      <End Role="Quotation" EntitySet="Quotations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Quotation_To_Consignee" Association="Self.FK_Quotation_To_Consignee">
+      <End Role="Consignee" EntitySet="Consignees" />
+      <End Role="Quotation" EntitySet="Quotations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Salary_To_Employee" Association="Self.FK_Salary_To_Employee">
+      <End Role="Employee" EntitySet="Employees" />
+      <End Role="Salary" EntitySet="Salaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Quotation_To_Packing" Association="Self.FK_Quotation_To_Packing">
+      <End Role="Packing" EntitySet="Packings" />
+      <End Role="Quotation" EntitySet="Quotations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Quotation_To_Port" Association="Self.FK_Quotation_To_Port">
+      <End Role="Port" EntitySet="Ports" />
+      <End Role="Quotation" EntitySet="Quotations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Quotation_To_Port1" Association="Self.FK_Quotation_To_Port1">
+      <End Role="Port" EntitySet="Ports" />
+      <End Role="Quotation" EntitySet="Quotations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Quotation_To_Shipper" Association="Self.FK_Quotation_To_Shipper">
+      <End Role="Shipper" EntitySet="Shippers" />
+      <End Role="Quotation" EntitySet="Quotations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServiceForQuotation_To_Quotation" Association="Self.FK_ServiceForQuotation_To_Quotation">
+      <End Role="Quotation" EntitySet="Quotations" />
+      <End Role="ServiceForQuotation" EntitySet="ServiceForQuotations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ServiceForQuotation_To_Service" Association="Self.FK_ServiceForQuotation_To_Service">
+      <End Role="Service" EntitySet="Services" />
+      <End Role="ServiceForQuotation" EntitySet="ServiceForQuotations" />
+    </AssociationSet>
+    <EntitySet Name="Users" EntityType="DbModel.User" />
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="EmailId" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

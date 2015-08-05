@@ -1,0 +1,179 @@
+﻿@using AgentManagementSystem.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="page-header">Income</h2>
+
+<form>
+    <div class="form-group">
+        <div class="container">
+            <div class="col-md-4">
+               <label style="margin-left:40%;">From</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" id="startingdate">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="container">
+            <div class="col-md-4">
+                <label style="margin-left:40%;">To Date</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" class="form-control" id="startingdate">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="container">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-6">
+                <input type="submit" class="btn btn-success" value="Income" id="startingdate">
+            </div>
+        </div>
+    </div>
+</form>
+<br />
+<hr/>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Income</th>
+            <th>Expenses</th>
+            <th>Salaries</th>
+            <th id="heading"></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Rs.@ViewBag.TotalIncome</td>
+            <td>Rs.@ViewBag.TotalExpenses</td>
+            <td>Rs.@ViewBag.TotalSalaries</td>
+            <td id="data"></td>
+
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        @{
+           int a = (int)ViewBag.TotalSalaries;
+           int b = (int)ViewBag.TotalExpenses;
+           int c = ViewBag.TotalIncome;
+
+           if(a+b>c)
+           {
+               int d= a+b-c;
+              <text>
+        $('#heading').empty();
+        $('#heading').append("Loss");
+        $('#data').empty();
+        $('#data').append('Rs.'+'@d');
+        </text>
+           }
+           else
+           {
+                int d= c-a-b;
+              <text>
+                $('#heading').empty();
+                $('#heading').append("Profit");
+                $('#data').empty();
+                $('#data').append('Rs.'+'@d');
+              </text>
+           }
+       }
+    });
+</script>
+@*<dl class="dl-horizontal hover">
+    <dt>
+        Total Income: 
+    </dt>
+
+    <dd>
+        aslg
+    </dd>
+
+</dl>*@
+
+
+
+@*<table class="table table-bordered table-hovered" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                Title
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                Date
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in ViewBag.Expenses)
+        {
+            <tr>
+                <td>
+                    @item.Title
+                </td>
+                <td>
+                    @item.Amount
+                </td>
+                <td>
+                    @item.Date
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2 class="page-header">Jobs</h2>
+
+<table class="table table-bordered table-hover" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                Date
+            </th>
+            <th>
+                Total
+            </th>
+            <th>
+                Payed Amount
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in ViewBag.Quotations)
+        {
+            <tr>
+                <td>
+                    @item.Date
+                </td>
+                <td>
+                    @{
+                      DbEntities1 db = new DbEntities1();
+                      var a = db.ServiceForQuotations.Where(y => y.QuotationId == item.Id).Sum(y => y.Quantity * y.UnitPrice);
+                    }
+                    @a
+                </td>
+                <td>
+                    @item.PayedAmount
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>*@

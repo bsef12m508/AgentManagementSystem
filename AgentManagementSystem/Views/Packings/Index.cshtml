@@ -1,0 +1,43 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Packing>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="page-header">Search Packing</h3>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-hovered" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                Action
+            </th>
+           
+        </tr>
+
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Packings/Edit/@item.Id'" />
+                
+                    <input type="submit" class="btn-success" value="Details" onclick="self.location='/Packings/Details/@item.Id'" />
+                
+                    <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Packings/Delete/@item.Id'" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

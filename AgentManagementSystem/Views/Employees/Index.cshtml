@@ -1,0 +1,77 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Employee>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>View Employees</h2>
+<hr />
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-hover" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rank)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IqmaNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SalaryType)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rank)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IqmaNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SalaryType)
+                </td>
+                <td>
+                    <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Employees/Edit/@item.Id'" />
+
+                    <input type="submit" class="btn-success" value="Details" onclick="self.location='/Employees/Details/@item.Id'" />
+
+                    <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Employees/Delete/@item.Id'" />
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

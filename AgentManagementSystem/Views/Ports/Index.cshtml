@@ -1,0 +1,48 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Port>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="page-header">Search Port</h3>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<table  class="table table-bordered table-hovered" id="mytable" >
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PortName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Country)
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PortName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Country)
+                </td>
+                <td>
+                    <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Ports/Edit/@item.Id'"  />
+                
+                    <input type="submit" class="btn-success" value="Details" onclick="self.location='/Ports/Details/@item.Id'" />
+                
+                    <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Ports/Delete/@item.Id'" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Area</title>
+
+
+    <link href="~/Scripts/dtcss.css" rel="stylesheet" />
+    <link href="~/Content/metisMenu.min.css" rel="stylesheet" />
+    <link href="~/Content/sb-admin-2.css" rel="stylesheet" />
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/dtumar.js"></script>
+    <script src="~/Scripts/metisMenu.min.js"></script>
+    <script src="~/Scripts/sb-admin-2.js"></script>
+    <script src="~/Scripts/pj.js"></script>
+</head>
+
+<body style="padding-top:0px">
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/Admin/Index">Admin Pannel</a>
+            </div>
+            <!-- /.navbar-header -->
+            <ul class="nav navbar-top-links navbar-right">
+
+
+
+
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li>
+                            <a href="/Admin/EditProfile"><i class="fa fa-gear fa-fw"></i>Edit Profile</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="/Home/Logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Comodity Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Comodities/Create">Add Comodity</a>
+                                </li>
+                                <li>
+                                    <a href="/Comodities/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Consignee Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Consignees/Create">Add Consignee</a>
+                                </li>
+                                <li>
+                                    <a href="/Consignees/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Employees Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Employees/Create">Add Employee</a>
+                                </li>
+                                <li>
+                                    <a href="/Employees/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Expenses Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Expenses/Create">Add Expense</a>
+                                </li>
+                                <li>
+                                    <a href="/Expenses/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Income Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Income/Index">Income</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Jobs Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Jobs/Index">View Jobs</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Packing Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Packings/Create">Add Packing</a>
+                                </li>
+                                <li>
+                                    <a href="/Packings/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Ports Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Ports/Create">Add Port</a>
+                                </li>
+                                <li>
+                                    <a href="/Ports/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Quotations Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Quotations/Create">Add Quotation</a>
+                                </li>
+                                <li>
+                                    <a href="/Quotations/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Salary Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Salaries/Create">Pay Salary</a>
+                                </li>
+                                <li>
+                                    <a href="/Salaries/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Shipper Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Shippers/Create">Add Shipper</a>
+                                </li>
+                                <li>
+                                    <a href="/Shippers/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>Services Panel<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="/Services/Create">Add Service</a>
+                                </li>
+                                <li>
+                                    <a href="/Services/Index">View/Update</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+        <!-- Page Content -->
+        <div id="page-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @RenderBody()
+                    </div>
+                    <!-- /.col-lg-12 -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- /#page-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+</body>
+</html>
+
+@RenderSection("scripts", required: false)
+
+
+

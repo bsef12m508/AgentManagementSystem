@@ -1,0 +1,58 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Expense>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="page-header">Add Expense</h3>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-hovered" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Expenses/Edit/@item.Id'" />
+
+                    <input type="submit" class="btn-success" value="Details" onclick="self.location='/Expenses/Details/@item.Id'" />
+
+                    <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Expenses/Delete/@item.Id'" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Comodity>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h3 class="page-header">Search Comodity</h3>
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered table-hovered" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Comodities/Edit/@item.Id'" />
+               
+                    <input type="submit" class="btn-success" value="Details" onclick="self.location='/Comodities/Details/@item.Id'" />
+              
+                    <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Comodities/Delete/@item.Id'" />
+                    </td>
+            </tr>
+        }
+    </tbody>
+</table>

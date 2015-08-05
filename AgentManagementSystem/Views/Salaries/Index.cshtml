@@ -1,0 +1,55 @@
+﻿@model IEnumerable<AgentManagementSystem.Models.Salary>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="page-header">View Salaries</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+
+<table class="table table-hover table-bordered" id="mytable">
+    <thead>
+        <tr>
+            <th>
+                Employee
+            </th>
+            <th>
+                Salary
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PaidAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Employee.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    <input type="submit" class="btn-warning" value="Edit" onclick="self.location= '/Salaries/Edit/@item.Id'" />
+
+                    <input type="submit" class="btn-success" value="Details" onclick="self.location='/Salaries/Details/@item.Id'" />
+
+                    <input type="submit" class="btn-danger" value="Delete" onclick="self.location='/Salaries/Delete/@item.Id'" />
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
